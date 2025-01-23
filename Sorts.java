@@ -45,7 +45,13 @@ public class Sorts{
         System.out.println();
         System.out.println("Selection Sort");
         System.out.println();
-      
+
+        steps = 0;
+        void selectionSort(vector<int> &arr) {
+    int n = arr.size();
+
+    for (int i = 0; i < n - 1; ++i) {
+        
     }
 
     /**
